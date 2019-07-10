@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.Domain", "Roman.Domain\Roman.Domain.csproj", "{69FC0947-74CF-44FD-9705-30AE8035302D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman.Domain", "Roman.Domain\Roman.Domain.csproj", "{69FC0947-74CF-44FD-9705-30AE8035302D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.Domain.Tests", "Roman.Domain.Tests\Roman.Domain.Tests.csproj", "{D29EE438-4604-482F-9094-87D77DE05952}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman.Domain.Tests", "Roman.Domain.Tests\Roman.Domain.Tests.csproj", "{D29EE438-4604-482F-9094-87D77DE05952}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.UI", "Roman.UI\Roman.UI.csproj", "{DA62CEFB-2B16-43F4-87CC-4EC4C990031A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.Core", "Roman.Core\Roman.Core.csproj", "{79128765-A3C4-40E9-9176-DF5CC3AABA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.Simple", "Roman.Simple\Roman.Simple.csproj", "{3E3BCFCF-3CF4-4458-BEF6-A74D7615E705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{438F8050-61A2-47C6-B143-5862D5110185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.Simple.Tests", "Roman.Simple.Tests\Roman.Simple.Tests.csproj", "{804703AB-2123-4B47-B22D-75D58CBF1AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman.Core.Tests", "Roman.Core.Tests\Roman.Core.Tests.csproj", "{FC291455-96D4-40FB-A1F3-A07EF1FE9033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +37,30 @@ Global
 		{DA62CEFB-2B16-43F4-87CC-4EC4C990031A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA62CEFB-2B16-43F4-87CC-4EC4C990031A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA62CEFB-2B16-43F4-87CC-4EC4C990031A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79128765-A3C4-40E9-9176-DF5CC3AABA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79128765-A3C4-40E9-9176-DF5CC3AABA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79128765-A3C4-40E9-9176-DF5CC3AABA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79128765-A3C4-40E9-9176-DF5CC3AABA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3BCFCF-3CF4-4458-BEF6-A74D7615E705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3BCFCF-3CF4-4458-BEF6-A74D7615E705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3BCFCF-3CF4-4458-BEF6-A74D7615E705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3BCFCF-3CF4-4458-BEF6-A74D7615E705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804703AB-2123-4B47-B22D-75D58CBF1AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804703AB-2123-4B47-B22D-75D58CBF1AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804703AB-2123-4B47-B22D-75D58CBF1AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804703AB-2123-4B47-B22D-75D58CBF1AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC291455-96D4-40FB-A1F3-A07EF1FE9033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC291455-96D4-40FB-A1F3-A07EF1FE9033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC291455-96D4-40FB-A1F3-A07EF1FE9033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC291455-96D4-40FB-A1F3-A07EF1FE9033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D29EE438-4604-482F-9094-87D77DE05952} = {438F8050-61A2-47C6-B143-5862D5110185}
+		{804703AB-2123-4B47-B22D-75D58CBF1AA5} = {438F8050-61A2-47C6-B143-5862D5110185}
+		{FC291455-96D4-40FB-A1F3-A07EF1FE9033} = {438F8050-61A2-47C6-B143-5862D5110185}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D709E51-75B8-4D09-A13F-5802F4B2A975}
